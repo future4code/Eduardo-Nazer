@@ -1,0 +1,5 @@
+1-Hamburguer 
+2-Batata frita 
+3-Strogonoff
+4-Esfirra
+5-Pizza
