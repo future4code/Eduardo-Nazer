@@ -68,24 +68,16 @@ function imprimeTresCoresFavoritas() {
   // escreva seu código aqui
   // Escreva um código que pede ao usuário suas três cores favoritas e
   // imprime no console um array que contenha essas três cores.
-  const azul = 'Azul'
-  const amarelo = 'Amarelo'
-  const vermelho = 'Vermelho'
-  const laranja = 'Laranja'
-  const roxo = 'Roxo'
-  const preto = 'Preto'
-  // ["Azul", "Amarelo", "Vermelho"]
-  // ["Laranja", "Roxo", "Preto"]
-  const array1 = [azul] [amarelo] [vermelho]
-  const array2 = [laranja] [roxo] [preto] 
-  const coresDoUsuario = prompt(`Digite 3 das suas cores favortias:`)
-  console.log(coresDoUsuario [cores1, cores2])
 
+const primeira = prompt(`Digite a sua primeira cor favorita:`)
+const segunda = prompt(`Digite a sua segunda cor favorita:`)
+const terceira = prompt(`Digite a sua terceira cor favorita:`)
 
-// cria uma variavel  para cada cor
-// depois cria o array = [variavel1] [variavel2] [variavel3]
-// para cada variável você cria um prompt pedindo uma cor
+let arrayCores = [primeira, segunda, terceira]
+
+console.log(arrayCores)
 }
+
 
 // Exercício 6
 function retornaStringEmMaiuscula() {
@@ -116,26 +108,10 @@ function checaStringsMesmoTamanho() {
   // escreva seu código aqui
   // Escreva um código que pede ao usuário duas strings e imprima no
   // console um booleano (true ou false) indicando se elas possuem o mesmo tamanho.
-  const string1 = prompt(`Digite ola!`)
-  const string2 = prompt(`Digite abc!`)
-    // console.log(string1.length)==(string2.length)
-      const string11 = (string1.length)
-      const string22 = (string2.length)
-        console.log(string11===string22)
+const string1 = prompt(`Digite:`)
+const string2 = prompt(`Digite:`)
 
-  const string3 = prompt(`Digite teste!`)
-  const string4 = prompt(`Digite porta!`)
-    // console.log(string3.length)==(string4.length)
-    const string33 = (string3.length)
-    const string44 = (string4.length)
-      console.log(string33===string44)
-
-  const string5 = prompt(`Digite abc!`)
-  const string6 = prompt(`Digite abcd!`)
-    // console.log(string5.length)==(string6.length)
-      const string55 = (string5.length)
-      const string66 = (string6.length)
-        console.log(string55===string66)
+console.log(string1.length===string2.length)
 
 }
 
@@ -145,6 +121,13 @@ function checaIgualdadeDesconsiderandoCase() {
   // Escreva um código que pede ao usuário duas strings e **imprima no
   // console** um booleano (true ou false) indicando se elas são iguais,
   // desconsiderando letras maiúsculas ou minúsculas.
+  const string1 = prompt(`Digite:`)
+  const string2 = prompt(`Digite:`)
+    
+    const string1minu = string1.toLocaleLowerCase()
+    const string2minu = string2.toLocaleLowerCase()
+      
+      console.log(string1minu.includes(string2minu))
 
 }
 
