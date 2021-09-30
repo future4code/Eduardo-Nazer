@@ -31,35 +31,33 @@
     // O console irá imprimir os números 19, 21, 23, 25, 27, 30.
 
 //         b) Se eu quisesse acessar o **índice** de cada elemento dessa lista, o `for...of...` é suficiente? Se não, o que poderia ser usado para fazer isso?
+
+//Sim, é possível,mas de uma forma complicada.
      
-            // const lista = [10, 11, 12, 15, 18, 19, 21, 23, 25, 27, 30]
-            // for (nano of lista){
-            //     if (nano > 0)
-            //     nano++
-            //     console.log(nano)
-            // }
-
-
-            
-            
-            //incompleto
-
+            const lista = [10, 11, 12, 15, 18, 19, 21, 23, 25, 27, 30]
+            let array = []
+            let index = -1
+            for (nano of lista){ // para cada nano da lista, adiciona 1 na variável index.
+                index = index + 1  
+                array.push(index) 
+            }
+            console.log(array)
 
 
 
 //     3. Qual seria o resultado impresso no console, se o usuário digitasse o número `4` ?
         
 //         ```jsx
-        const quantidadeTotal = Number(prompt("Digite a quantidade de linhas: "))
-        let quantidadeAtual = 0
-        while(quantidadeAtual < quantidadeTotal){
-          let linha = ""
-          for(let asteriscos = 0; asteriscos < quantidadeAtual + 1; asteriscos++){
-            linha += "*"
-          }
-          console.log(linha)
-          quantidadeAtual++
-        }
+        // const quantidadeTotal = Number(prompt("Digite a quantidade de linhas: "))
+        // let quantidadeAtual = 0
+        // while(quantidadeAtual < quantidadeTotal){
+        //   let linha = ""
+        //   for(let asteriscos = 0; asteriscos < quantidadeAtual + 1; asteriscos++){
+        //     linha += "*"
+        //   }
+        //   console.log(linha)
+        //   quantidadeAtual++
+        // }
         
 //         ```
         
@@ -164,3 +162,16 @@
 //                     // Resposta e.
 //                     "O maior número é 130 e o menor é 21"
 //                     ```
+
+
+
+
+
+
+
+
+
+
+
+
+
