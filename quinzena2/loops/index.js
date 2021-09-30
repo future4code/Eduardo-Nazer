@@ -34,14 +34,14 @@
 
 //Sim, é possível,mas de uma forma complicada.
      
-            const lista = [10, 11, 12, 15, 18, 19, 21, 23, 25, 27, 30]
-            let array = []
-            let index = -1
-            for (nano of lista){ // para cada nano da lista, adiciona 1 na variável index.
-                index = index + 1  
-                array.push(index) 
-            }
-            console.log(array)
+            // const lista = [10, 11, 12, 15, 18, 19, 21, 23, 25, 27, 30]
+            // let array = []
+            // let index = -1
+            // for (nano of lista){ // para cada nano da lista, adiciona 1 na variável index.
+            //     index = index + 1  
+            //     array.push(index) 
+            // }
+            // console.log(array)
 
 
 
@@ -162,16 +162,3 @@
 //                     // Resposta e.
 //                     "O maior número é 130 e o menor é 21"
 //                     ```
-
-
-
-
-
-
-
-
-
-
-
-
-
