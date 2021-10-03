@@ -16,14 +16,9 @@
 console.log("Boas vindas ao jogo de Blackjack!")
    let rodada = (confirm("Quer iniciar uma nova rodada?"))
       let (rodada === true){
+
          let jogada1u = comprarCarta()
          let jogada2u = comprarCarta()
          let pontosUsuario = jogada1u + jogada2u 
       }
 
-
-  
-   
-
-
-    //TESTE DE SAVE DO PROJETO!!!!!! ESTOU TENDO PROBLEMAS COM O PR.
