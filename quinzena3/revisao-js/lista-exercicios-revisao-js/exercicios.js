@@ -1,6 +1,6 @@
 // EXERCÍCIO 01
 function inverteArray(array) {
-  return array.map((val, index, array) => array[array.length - 1 - index])
+  return array.map((item, index, array) => array[array.length - 1 - index])
   
 }
 
@@ -11,7 +11,8 @@ function inverteArray(array) {
 //     o array de saída deverá ser [4, 16, 36], 
 //     que nada mais é que um array com o resultado de 2², 4², 6².
 function retornaNumerosParesElevadosADois(array) {
-    for(let resultado = 0; resultado )
+// let arrayResposta = for(item = Number, )
+
 }
 
 // EXERCÍCIO 03
@@ -23,7 +24,11 @@ function retornaNumerosParesElevadosADois(array) {
 //     3. Dentro do for, faça a verificação se o número atual é divisível por 2, se for, ele é um número par e deve ser adicionado (ou "empurrado" 😉 😉 ) para o array que você criou. Caso ele não seja divisível por dois, não precisa fazer nada.
 //     4. Lembre de **retornar** o array com os números pares que você criou.
 function retornaNumerosPares(array) {
-
+//    let novoArray = 
+//    for(let i = 0, i % 0, i++) {
+//       novoArray = i.push
+//    }
+//    return novoArray
 }
 
 // EXERCÍCIO 04
@@ -72,7 +77,12 @@ function retornaExpressoesBooleanas() {
 // EXERCÍCIO 07
 // Escreva uma função que, recebendo um número N como parâmetro, retorne os N primeiros números pares (por exemplo, se N for 3, você deve imprimir 0, 2 e 4; se N for 5, deve retornar 0, 2, 4, 6 e 8).
 function retornaNNumerosPares(n) {
-
+   let novoArray = []
+    for(valor of n){
+        index = index++
+        novoArray.push(index)
+    }
+    
 }
 
 // EXERCÍCIO 08
@@ -102,7 +112,6 @@ function comparaDoisNumeros(num1, num2) {
 // EXERCÍCIO 10
 // Escreva uma função que receba um array de números e retorne um novo array com apenas 2 valores (NESTA ORDEM): o segundo maior e o segundo menor número do array original. (**Desafio**: tentem fazer sem usar função de ordenação de array.)
 function segundoMaiorEMenor(array) {
-
 }
 
 // EXERCÍCIO 11
